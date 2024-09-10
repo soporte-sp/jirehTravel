@@ -76,3 +76,4 @@
     ></script>
     <!-- revolutions slider script -->
     <script src="../js/revolution.js"></script>
+    <script src="../js/script.js"></script>

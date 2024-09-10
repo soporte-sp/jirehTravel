@@ -12560,8 +12560,9 @@ to {
 }
 
 .navbar-position{
-	width: 80%;
+	width: calc(100% - 24rem);
 	height: 10rem;
+	
 	display: flex;
 	justify-content: space-between;
 	-webkit-transition: all .2s linear;
@@ -12576,6 +12577,7 @@ to {
 	gap: 1.5rem;
 	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
+	margin-inline-end: .5rem;
 }
 .navbar-position-logos{
 	width: 85%;
@@ -12597,14 +12599,13 @@ to {
 	align-items: center;
 	justify-content: end;
 	width: 15%;
-	margin-inline-end: -3rem;
 }
 .navbar-item-icon{
 	width: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	border-left: 1px solid white;
-	padding-inline-start: 1.7rem;
 	height: 10rem;
 }
 #header.fixed-position .navbar-item-icon{
@@ -12853,7 +12854,9 @@ to {
 	  line-height: 1.2;
 	}
   }
-  
+  .main-subtitle-visa{
+	font-size: 1.5rem;
+  }
 
 /*-------------------Vuelos-------------------*/
 .double-separator{
@@ -12901,3 +12904,125 @@ to {
 	  color: white;
 	}
   }
+
+/*--------------------Mexico-------------------*/
+.banner-container{
+	margin-block-start: 4rem;
+	width: 100%;
+	display: flex;
+}
+.img-banner{
+	width: 50%;
+}
+.banner-title{
+	padding-inline: 5rem;
+	padding-block-start: 6.5rem;
+}
+.banner-title h1{
+	font-size: 6rem;
+	color: rgb(90, 90, 90);
+	font-weight: 600;
+	text-align: center;
+}
+.banner-title p{
+	text-align: center;
+}
+.banner-title > p:nth-child(2){
+	font-size: 3rem;
+	font-weight: 600;
+	margin-block-start: -2.2rem;
+}
+.banner-title > p:nth-child(3){
+	font-size: 3rem;
+	font-style: italic;
+	margin-block-start: -.5rem;
+}
+.banner-title > p:nth-child(4){
+	font-size: 6rem;
+	font-weight: 600;
+	margin-block-start: -3rem;
+}
+.banner-title > p:nth-child(5){
+	color: rgb(130, 130, 130);
+	font-size: 1.7rem;
+	margin-block-start: -3.5rem;
+}
+.banner-title > p:nth-child(6){
+	margin-block-start: 2.5rem;
+	font-size: 1.7rem;
+	color: rgb(130, 130, 130);
+	line-height: 1;
+}
+.banner-title > p:nth-child(7){
+	font-size: 3rem;
+	font-weight: 500;
+	margin-block-end: 2rem;
+}
+.banner-icons{
+	display: flex;
+	justify-content: space-between;
+	margin-block-start: -1rem;
+	padding-inline: 1rem;
+}
+.banner-icon-item{
+	display: flex;
+	width: 9rem;
+	flex-direction: column;
+	align-items: center;
+}
+.banner-icon-item div {
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 100%;
+	background-color: #5f6865;
+	display: flex;
+	align-items: center;
+	padding: .3rem;
+}
+
+.banner-menu{
+	background-color: #050829;
+	height: 7rem;
+	display: flex;
+	justify-content: center;
+}
+.banner-menu ul{
+	width: 80%;
+	height: 7rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.banner-menu ul li{
+	list-style: none;
+}
+.banner-menu ul li button{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	font-size: 1.7rem;
+	color: rgb(177, 177, 177);
+}
+.banner-menu ul li a:hover{
+	color: rgb(210, 210, 210);
+}
+.main-container{
+	display: flex;
+	justify-content: center;
+	margin-block-start: 2rem;
+}
+.item-container{
+	width: 80%;
+	display: flex;
+}
+.item-main{
+	width: 50%;
+}
+.item-main h3{
+	margin-inline-start: 2rem;
+	margin-block-end: -.4rem;
+}
+.item-main ul li{
+  font-size: 1.7rem;
+}

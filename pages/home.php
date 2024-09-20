@@ -7,7 +7,10 @@
     <div id="wrapper">
       <div class="page-wrapper">
         <!-- main header -->
-        <?php require_once('../templates/header.php') ?>
+        <?php 
+        $show = true;
+        require_once('../templates/header.php');
+        ?>
         <!-- main banner -->
         <?php require_once('../templates/main_banner.php') ?>
 
@@ -693,6 +696,8 @@
       <!-- main footer -->
       <?php require_once('../templates/footer.php') ?>
     </div>
-    <?php require_once('../templates/scripts.php') ?>
+    <?php 
+    $status='';
+    require_once('../templates/scripts.php') ?>
   </body>
 </html>

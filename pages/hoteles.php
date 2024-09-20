@@ -8,17 +8,20 @@
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- main header -->
-            <?php require_once('../templates/header.php') ?>
+            <?php
+                $show = false;
+                require_once('../templates/header.php');
+            ?>
             <!-- main banner -->
             <?php
             require_once('../templates/simple_banner.php');
             $banner_data = array(
                 'urlImage' => '../img/banner/Banner Hoteles.jpg',
-                'description' => 'Encontramos el hospedaje perfecto para ti',
+                'description' => '<span style="text-shadow: 2px 2px 5px rgba(100, 100, 100, 0.5);">Encontramos el hospedaje perfecto para ti</span>',
                 'btn_title' => '',
                 'btn_bg' => '#03041f',
                 'data_x' => "['start','center','center','center']",
-                'data_y' => "['center','center','center','center']",
+                'data_y' => "['100','center','center','center']",
                 'data_v' => "['20','240','10','20']",
                 'data_h' => "['0','0','0','0']",
             );
@@ -29,7 +32,7 @@
             <main id="main">
                 <div class="visa-content">
                     <header class="content-heading-visa">
-                        <p class="main-subtitle-vuelos">
+                        <p class="main-subtitle-visa">
                             En <strong>Jireh Travel</strong> te ayudamos a encontrar y reservar el hotel ideal
                             para tu viaje. Con acceso a una amplia variedad de hoteles en todo
                             el mundo, te garantizamos las mejores tarifas y opciones que se

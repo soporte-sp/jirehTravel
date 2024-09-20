@@ -8,13 +8,16 @@
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- main header -->
-            <?php require_once('../templates/header.php') ?>
+            <?php
+            $show = false;
+            require_once('../templates/header.php');
+            ?>
             <!-- main banner -->
             <?php
             require_once('../templates/simple_banner.php');
             $banner_data = array(
                 'urlImage' => '../img/banner/Banner Visa.jpg',
-                'description' => 'Encontramos el hospedaje perfecto para ti',
+                'description' => 'Te asesoramos en el trámite de tu visa',
                 'btn_title' => '',
                 'btn_bg' => '#03041f',
                 'data_x' => "['start','center','center','center']",
@@ -49,12 +52,10 @@
                                     <div class="img-wrap">
                                         <img src="../img/banner/Visa americana.jpg" height="210" width="250" alt="image description">
                                     </div>
-                                    <footer style="display: flex; justify-content: space-between; font-size: 2.5rem; margin-block-start: -3rem;">
+                                    <a href="#" style="display: flex; justify-content: space-between; font-size: 2.5rem; margin-block-start: -3rem;">
                                         <span style="font-weight: 500;">Visa americana</span>
-                                        <a href="http://"><i class="icon-angle-right" style="font-weight: 900; font-size: 1.7rem; color: gray;"></i></a>
-
-
-                                    </footer>
+                                       
+                                    </a>
                                 </div>
                             </article>
 
@@ -63,11 +64,9 @@
                                     <div class="img-wrap">
                                         <img src="../img/banner/Visa canadiense.jpg" height="210" width="250" alt="image description">
                                     </div>
-                                    <footer style="display: flex; justify-content: space-between; font-size: 2.5rem; margin-block-start: -3rem;">
+                                    <a href="#" style="display: flex; justify-content: space-between; font-size: 2.5rem; margin-block-start: -3rem;">
                                         <span style="font-weight: 500;">Visa canadiense</span>
-                                        <a href="http://"><i class="icon-angle-right" style="font-weight: 900; font-size: 1.7rem; color: gray;"></i></a>
-
-                                    </footer>
+                                    </a>
                                 </div>
                             </article>
 
@@ -76,16 +75,15 @@
                                     <div class="img-wrap">
                                         <img src="../img/banner/Otros Visados.jpg" height="210" width="250" alt="image description">
                                     </div>
-                                    <footer style="display: flex; justify-content: space-between; font-size: 2.5rem; margin-block-start: -3rem;">
+                                    <a href="#" style="display: flex; justify-content: space-between; font-size: 2.5rem; margin-block-start: -3rem;">
                                         <span style="font-weight: 500;">Otros visados</span>
-                                        <a href="http://"><i class="icon-angle-right" style="font-weight: 900; font-size: 1.7rem; color: gray;"></i></a>
-                                    </footer>
+                                    </a>
                                 </div>
                             </article>
 
                         </div>
                         <div style="margin-block: 4rem 5rem; text-align: center;">
-                            <a style="background-color: red; color: white; padding: 1.2rem 1.5rem; font-size: 2rem; border-radius: .3em;" href="https://wa.link/u62mb7">Inicia mi trámite</a>
+                            <a style="background-color: red; color: white; padding: 1.2rem 1.5rem; font-size: 2rem; border-radius: .3em;" href="https://wa.link/u62mb7">Iniciar mi tramite</a>
                         </div>
                     </div>
 

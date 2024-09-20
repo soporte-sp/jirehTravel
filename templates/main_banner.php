@@ -1,4 +1,4 @@
-<div class="banner banner-home">
+<div class="banner banner-home" >
     <!--icono de whaspp-->
     <div class="whaspp-contact">
         <a href="http://">
@@ -7,7 +7,26 @@
         </a>
     </div>
 
-    <!-- revolution slider starts -->
+    <!-- revolution slider starts 1530px -->
+
+    <style>
+    /* .tp-kbimg{
+        height: 510px !important; 
+        /* width: 100vw !important;  */
+        /* width: 1330px !important; / 
+        
+    }
+    .tp-kbimg-wrap{
+        width: 100vw !important;
+    } */
+    @media only screen and (max-width: 768px){
+        .tp-fullwidth-forcer{
+            height: 500px !important;
+        }
+    }
+    </style>
+
+<!--el tamaño del banner la modifique en el archivo revolution.extension.kenburn.min.js-->
     <div
         id="rev_slider_279_1_wrapper"
         class="rev_slider_wrapper fullscreen-container"
@@ -21,7 +40,7 @@
             ">
         <div
             id="rev_slider_70_1"
-            class="rev_slider fullscreenabanner"
+            class="rev_slider"
             style="display: none"
             data-version="5.1.4">
             <ul>
@@ -56,12 +75,11 @@
                         class="rev-slidebg"
                         data-bgfit="cover"
                         data-no-retina />
-
                     <div
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
-                        data-x="['start','center','center','center']"
+                        data-x="['start','start','center','center']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['top','top','middle','middle']"
+                        data-y="['110','top','middle','middle']"
                         data-voffset="['220','240','10','20']"
                         data-fontsize="['48','48','44','28']"
                         data-lineheight="['55','85','50','50']"
@@ -93,9 +111,10 @@
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
                         data-x="['start','center','center','center']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['center','top','middle','middle']"
+                        data-y="['top','top','middle','middle']"
                         data-voffset="['220','240','10','20']"
-                        data-fontsize="['58','48','44','28']"
+                    
+                        data-fontsize="['68','48','44','28']"
                         data-lineheight="['85','85','50','150']"
                         data-width="['320','1000','750','480']"
                         data-height="420"

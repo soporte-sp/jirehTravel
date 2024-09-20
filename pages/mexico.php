@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <?php require_once('../templates/head.php') ?>
-<style>.white-header{background-color: #050829!important;}</style>
+<style>
+    .white-header {
+        background-color: #050829 !important;
+    }
+</style>
+
 <body>
     <!-- preload -->
     <?php require_once('../templates/preload.php') ?>
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- main header -->
-            <?php require_once('../templates/header.php') ?>
+            <?php
+            $show = false;
+            require_once('../templates/header.php');
+            ?>
             <!-- main banner -->
             <div>
                 <div class="banner-container">
@@ -63,6 +71,9 @@
                                 </img>
                             </div>
                         </div>
+                        <div style="display: flex; justify-content: center; margin-block-start: 1rem;">
+                        <button style="background-color: #050829; border: none; outline: none; padding: .7rem 2.5rem; color: white; border-radius: .5em;">Cotizar</button>
+                        </div>
                     </div>
                 </div>
 
@@ -108,7 +119,7 @@
                     </div>
 
                     <div class="item-main">
-                        <h3 style="font-weight: 700;" >NO INCLUYE</h3>
+                        <h3 style="font-weight: 700;">NO INCLUYE</h3>
                         <ul>
                             <li>Boletos aéreos.</li>
                             <li>Traslados desde cualquier aeropuerto diferente al AICM Benito Juárez</li>
@@ -129,9 +140,11 @@
                     <div class="demo-wrapper" style="padding-top: 0;">
                         <ol class="detail-accordion">
                             <li style="width: 55vw;">
-                                <a href="#">
-                                    <strong class="title">OCTUBRE 31</strong>
-                                    <span>LLEGADA A CIUDAD DE MÉXICO</span>
+                                <a href="#" style="display: flex; align-items: center; gap: 3rem;">
+                                    <span class="icon-tick"></span>
+                                    <div><strong class="title">OCTUBRE 31</strong>
+                                        <span>LLEGADA A CIUDAD DE MÉXICO</span>
+                                    </div>
                                 </a>
                                 <div class="slide">
                                     <div class="slide-holder">
@@ -141,9 +154,11 @@
                             </li>
 
                             <li style="width: 55vw;">
-                                <a href="#">
-                                    <strong class="title">NOVIEMBRE 01</strong>
-                                    <span>TAXCO</span>
+                                <a href="#" style="display: flex; align-items: center; gap: 3rem;">
+                                    <span class="icon-tick"></span>
+                                    <div><strong class="title">NOVIEMBRE 01</strong>
+                                        <span>TAXCO</span>
+                                    </div>
                                 </a>
                                 <div class="slide">
                                     <div class="slide-holder">
@@ -153,9 +168,12 @@
                             </li>
 
                             <li style="width: 55vw;">
-                                <a href="#">
-                                    <strong class="title">NOVIEMBRE 02</strong>
-                                    <span>DESFILE, TIEMPO LIBRE. EVENTO ROYAL ZONA ROSA Desayuno</span>
+                                <a href="#" style="display: flex; align-items: center; gap: 3rem;">
+                                    <span class="icon-tick"></span>
+                                    <div>
+                                        <strong class="title">NOVIEMBRE 02</strong>
+                                        <span>DESFILE, TIEMPO LIBRE. EVENTO ROYAL ZONA ROSA Desayuno</span>
+                                    </div>
                                 </a>
                                 <div class="slide">
                                     <div class="slide-holder">
@@ -165,9 +183,12 @@
                             </li>
 
                             <li style="width: 55vw;">
-                                <a href="#">
-                                    <strong class="title">NOVIEMBRE 03</strong>
-                                    <span>PIRÁMIDES DE TEOTIHUACÁN Y BASÍLICA DE GUADALUPE – ALMUERZO INCLUIDO</span>
+                                <a href="#" style="display: flex; align-items: center; gap: 3rem;">
+                                    <span class="icon-tick"></span>
+                                    <div>
+                                        <strong class="title">NOVIEMBRE 03</strong>
+                                        <span>PIRÁMIDES DE TEOTIHUACÁN Y BASÍLICA DE GUADALUPE – ALMUERZO INCLUIDO</span>
+                                    </div>
                                 </a>
                                 <div class="slide">
                                     <div class="slide-holder">
@@ -177,9 +198,12 @@
                             </li>
 
                             <li style="width: 55vw;">
-                                <a href="#">
-                                    <strong class="title">NOVIEMBRE 04</strong>
-                                    <span>VISITA DE CIUDAD DE MEXICO Y ALTARES</span>
+                                <a href="#" style="display: flex; align-items: center; gap: 3rem;">
+                                    <span class="icon-tick"></span>
+                                    <div>
+                                        <strong class="title">NOVIEMBRE 04</strong>
+                                        <span>VISITA DE CIUDAD DE MEXICO Y ALTARES</span>
+                                    </div>
                                 </a>
                                 <div class="slide">
                                     <div class="slide-holder">
@@ -189,9 +213,12 @@
                             </li>
 
                             <li style="width: 55vw;">
-                                <a href="#">
-                                    <strong class="title">NOVIEMBRE 05</strong>
-                                    <span>XOCHIMILCO, COYOACÁN, CASA ESTUDIO DIEGO RIVERA O MUSEO FRIDA KAHLO</span>
+                                <a href="#" style="display: flex; align-items: center; gap: 3rem;">
+                                    <span class="icon-tick"></span>
+                                    <div>
+                                        <strong class="title">NOVIEMBRE 05</strong>
+                                        <span>XOCHIMILCO, COYOACÁN, CASA ESTUDIO DIEGO RIVERA O MUSEO FRIDA KAHLO</span>
+                                    </div>
                                 </a>
                                 <div class="slide">
                                     <div class="slide-holder">
@@ -201,9 +228,12 @@
                             </li>
 
                             <li style="width: 55vw;">
-                                <a href="#">
-                                    <strong class="title">NOVIEMBRE 6</strong>
-                                    <span>LLEGADA A CIUDAD DE MÉXICO</span>
+                                <a href="#" style="display: flex; align-items: center; gap: 3rem;">
+                                    <span class="icon-tick"></span>
+                                    <div>
+                                        <strong class="title">NOVIEMBRE 6</strong>
+                                        <span>LLEGADA A CIUDAD DE MÉXICO</span>
+                                    </div>
                                 </a>
                                 <div class="slide">
                                     <div class="slide-holder">
@@ -232,28 +262,31 @@
                             <tbody>
                                 <tr>
                                     <td style="font-weight: 600; font-size: 2.5rem; color: black;" data-label="Name">Regente – 3**</td>
-                                    <td data-label="Surname">$1.311</td>
-                                    <td data-label="Address">$1.071</td>
-                                    <td data-label="Email">$1.024</td>
-                                    <td data-label="Address">$876</td>
+                                    <td style="text-align: center;" data-label="Surname">$1.311</td>
+                                    <td style="text-align: center;" data-label="Address">$1.071</td>
+                                    <td style="text-align: center;" data-label="Email">$1.024</td>
+                                    <td style="text-align: center;" data-label="Address">$876</td>
                                 </tr>
                                 <tr>
                                     <td style="font-weight: 600; font-size: 2.5rem; color: black;" data-label="Name">Royal Reforma – 4*</td>
-                                    <td data-label="Surname">$1.450</td>
-                                    <td data-label="Address">$1.136</td>
-                                    <td data-label="Email">$1.079</td>
-                                    <td data-label="Address">$905</td>
+                                    <td style="text-align: center;" data-label="Surname">$1.450</td>
+                                    <td style="text-align: center;" data-label="Address">$1.136</td>
+                                    <td style="text-align: center;" data-label="Email">$1.079</td>
+                                    <td style="text-align: center;" data-label="Address">$905</td>
                                 </tr>
                                 <tr>
                                     <td style="font-weight: 600; font-size: 2.5rem; color: black;" data-label="Name">Galería Plaza Reforma - 4**</td>
-                                    <td data-label="Surname">$1.871</td>
-                                    <td data-label="Address">$1.405</td>
-                                    <td data-label="Email">$1.311</td>
-                                    <td data-label="Address">$922</td>
+                                    <td style="text-align: center;" data-label="Surname">$1.871</td>
+                                    <td style="text-align: center;" data-label="Address">$1.405</td>
+                                    <td style="text-align: center;" data-label="Email">$1.311</td>
+                                    <td style="text-align: center;" data-label="Address">$922</td>
                                 </tr>
 
                             </tbody>
                         </table>
+                        <div style="margin-block-start: -4rem; margin-inline-start: 1.7rem; width: 100%;">
+                        <p style="text-align: center;">Precio por persona en dólares americanos.</p>
+                        </div>
                     </div>
                 </div>
 

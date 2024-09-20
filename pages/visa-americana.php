@@ -8,16 +8,19 @@
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- main header -->
-            <?php require_once('../templates/header.php') ?>
+            <?php
+            $show = false;
+            require_once('../templates/header.php');
+            ?>
             <!-- main banner -->
             <?php
             require_once('../templates/simple_banner.php');
             $banner_data = array(
                 'urlImage' => '../img/banner/Banner Visa americana.jpg',
-                'description' => 'Te asesoramos en tu trámite de visa americana',
+                'description' => '<p style="text-align: end; padding-inline-start: 10rem;">Te asesoramos en tu trámite de visa americana</p>',
                 'btn_title' => 'Primera vez',
                 'btn_bg' => 'red',
-                'data_x' => "['780','right','right','right']",
+                'data_x' => "['690','right','right','right']",
                 'data_y' => "['200','center','center','center']",
                 'data_v' => "['50','240','10','20']",
                 'data_h' => "['0','0','0','0']",
@@ -91,7 +94,7 @@
                                                         <ul class="ul-li-marker" style="padding: 0; list-style: none;">
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">1° Consulta con tu agente el costo de asesoría para tramitar visa americana por primera vez.</li>
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">2° La agencia lo guiará para diligenciar el formulario DS-160.</li>
-                                                            <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de 185 dólares al cambio del día, por persona + pago retorno* del pasaporte por valor de $54.000 recogida en punto FedEx. (Visa aprobada)</li>
+                                                            <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de 185 dólares al cambio del día, por persona + pago retorno del pasaporte por valor de $54.000 recogida en punto FedEx. (Visa aprobada)</li>
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">4° La agencia programará su cita consular.</li>
 
                                                         </ul>

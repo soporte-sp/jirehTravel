@@ -70,10 +70,14 @@
       type="text/javascript"
       src="../vendors/revolution/js/extensions/revolution.extension.navigation.min.js"
     ></script>
-    <script
-      type="text/javascript"
-      src="../vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"
-    ></script>
+    <?php
+    if(!isset($status)){
+      echo "<script type='text/javascript' src='../vendors/revolution/js/extensions/revolution.extension.kenburn.min.js'></script>";
+    }else{
+      echo "<script type='text/javascript' src='../vendors/revolution/js/extensions/revolution.extension.kenburn.min-bk.js'></script>";
+    }
+    ?>
+    
     <!-- revolutions slider script -->
     <script src="../js/revolution.js"></script>
     <script src="../js/script.js"></script>

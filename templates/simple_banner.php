@@ -9,10 +9,10 @@ function simple_banner($banner_data)
     . "<ul><li class='slider-color-schema-dark' data-index='rs-4' data-transition='fade' "
     . "data-slotamount='7' data-easein='default' data-easeout='default' "
     . "data-masterspeed='1000' data-rotate='0' data-saveperformance='off' "
-    . "data-title='Slide' data-description=''>"
+    . "data-title='Slide' data-description='' >"
     . "<img src='$img' alt='image description' "
     . "data-bgposition='right center' data-kenburns='on' data-duration='30000' "
-    . "data-ease='Linear.easeNone' data-scalestart='100' data-scaleend='110' "
+    . "data-ease='Linear.easeNone' data-scalestart='100' data-scaleend='105' "
     . "data-rotatestart='0' data-rotateend='0' data-offsetstart='0 0' "
     . "data-offsetend='0 0' data-bgparallax='10' class='rev-slidebg' "
     . "data-bgfit='cover' data-no-retina />";
@@ -52,7 +52,7 @@ function banner_button($btn_title, $btn_bg)
     . "data-x=\"['start','start','center','center']\" "
     . "data-hoffset=\"['0','0','0','0']\" "
     . "data-y=\"['middle','middle','middle','middle']\" "
-    . "data-voffset=\"['100','160','180','150']\" "
+    . "data-voffset=\"['35','160','180','150']\" "
     . "data-width='none' data-height='none' data-whitespace='nowrap' "
     . "data-transform_idle='o:1;' "
     . "data-transform_hover='o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;' "
@@ -71,8 +71,15 @@ function banner_description($description, $data_x, $data_y, $data_v, $data_h)
 {
   $align = "start";
   $americana = "['780','right','right','right']";
+  $canadiense = "['160','center','center','center']";
+  $width = "['520','1000','750','480']";
+
   if($data_x == $americana){
     $align = "end";
+  }
+
+  if($data_y == $canadiense){
+    $width = "['420','1000','750','480']";
   }
 
   echo "<div class='tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0' "
@@ -82,7 +89,7 @@ function banner_description($description, $data_x, $data_y, $data_v, $data_h)
     . "data-voffset=\"$data_v\" "
     . "data-fontsize=\"['48','48','44','28']\" "
     . "data-lineheight=\"['50','85','50','50']\" "
-    . "data-width=\"['430','1000','750','480']\" "
+    . "data-width=\"$width\" "
     . "data-height='none' data-whitespace='normal' "
     . "data-transform_idle='o:1;' "
     . "data-transform_in='z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;' "

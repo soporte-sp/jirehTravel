@@ -102,7 +102,7 @@
             (o.end = new Object()),
             (o.endo = new Object()),
             (o.start.width = t),
-            (o.start.height = '500px'),//(o.start.width / a.owidth) * a.oheight), //Aqui modifique el ancho de la imagen del banner
+            (o.start.height = (o.start.width / a.owidth) * a.oheight), //Aqui modifique el ancho de la imagen del banner
             o.start.height < e)
           ) {
             var p = e / o.start.height;

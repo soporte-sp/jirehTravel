@@ -8,7 +8,10 @@
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- main header -->
-            <?php require_once('../templates/header.php') ?>
+            <?php
+                $show = false;
+                require_once('../templates/header.php');
+            ?>
             <!-- main banner -->
             <?php
             require_once('../templates/simple_banner.php');
@@ -18,7 +21,7 @@
                 'btn_title' => '',
                 'btn_bg' => '',
                 'data_x' => "['start','center','center','center']",
-                'data_y' => "['top','center','center','center']",
+                'data_y' => "['200','center','center','center']",
                 'data_v' => "['150','240','10','20']",
                 'data_h' => "['50','0','0','0']",
             );
@@ -30,13 +33,12 @@
             <main id="main">
                 <div class="visa-content">
                     <header class="content-heading-visa">
-                        <p class="main-subtitle-vuelos">
-                            En Jireh Travel podrás reservar tu próximo vuelo nacional o
-                            internacional a través de tu agente de viaje. Contamos con
-                            alianzas con todas las aerolíneas para presentarte todas las
-                            opciones de vuelo. Además, nuestro equipo de expertos estará
-                            disponible para brindarte asesoramiento personalizado y ayudarte
-                            a encontrar las mejores tarifas y rutas.
+                        <p class="main-subtitle-visa">
+                            En <strong>Jireh Travel</strong> podrás reservar tu próximo vuelo nacional o
+                            internacional a través de tu agente de viaje. Contamos con alianzas con las 
+                            principales aeroléneas para presentarte las mejores opciones de vuelos Además, 
+                            nuestro equipo de expertos estará disponible para brindarte asesoramiento 
+                            personalizado y ayudarte a encontrar las mejores tarifas y rutas.
                         </p>
                         <div class="double-separator"></div>
                     </header>

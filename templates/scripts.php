@@ -74,7 +74,11 @@
     if(!isset($status)){
       echo "<script type='text/javascript' src='../vendors/revolution/js/extensions/revolution.extension.kenburn.min.js'></script>";
     }else{
+<<<<<<< HEAD
       echo "<script type='text/javascript' src='../vendors/revolution/js/extensions/revolution.extension.kenburn.min.main.js'></script>";
+=======
+      echo "<script type='text/javascript' src='../vendors/revolution/js/extensions/revolution.extension.kenburn.min-bk.js'></script>";
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
     }
     ?>
     

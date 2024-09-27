@@ -1,4 +1,4 @@
-<div class="banner banner-home">
+<div class="banner banner-home" >
     <!--icono de whaspp-->
     <div class="whaspp-contact">
         <a href="http://">
@@ -9,6 +9,26 @@
 
     <!-- revolution slider starts 1530px -->
 
+<<<<<<< HEAD
+=======
+    <style>
+    /* .tp-kbimg{
+        height: 510px !important; 
+        /* width: 100vw !important;  */
+        /* width: 1330px !important; / 
+        
+    }
+    .tp-kbimg-wrap{
+        width: 100vw !important;
+    } */
+    @media only screen and (max-width: 768px){
+        .tp-fullwidth-forcer{
+            height: 500px !important;
+        }
+    }
+    </style>
+
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 <!--el tamaño del banner la modifique en el archivo revolution.extension.kenburn.min.js-->
     <div
         id="rev_slider_279_1_wrapper"
@@ -61,11 +81,16 @@
                     <div
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
                         data-x="['start','start','center','center']"
+<<<<<<< HEAD
                         data-y="['280','280','450','300']"
                         data-width="['480','350','400','280']"
                         data-height="300"
                         data-fontsize="['55','36','44','28']"
                         data-hoffset="['0','0','0','0']"
+=======
+                        data-hoffset="['0','0','0','0']"
+                        data-y="['110','top','middle','middle']"
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                         data-voffset="['220','240','10','20']"
                         data-lineheight="['55','45','50','30']"
                         data-whitespace="normal"
@@ -96,8 +121,17 @@
                         data-x="['start','start','center','center']"
                         data-y="['400','370','550','370']"
                         data-hoffset="['0','0','0','0']"
+<<<<<<< HEAD
                         data-width="['420','370','400','280']"
                         data-fontsize="['95','48','44','18']"
+=======
+                        data-y="['top','top','middle','middle']"
+                        data-voffset="['220','240','10','20']"
+                    
+                        data-fontsize="['68','48','44','28']"
+                        data-lineheight="['85','85','50','150']"
+                        data-width="['320','1000','750','480']"
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                         data-height="420"
                         data-voffset="['220','240','10','20']"
                         data-lineheight="['85','85','50','150']"

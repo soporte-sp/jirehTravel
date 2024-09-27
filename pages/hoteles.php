@@ -9,24 +9,35 @@
         <div class="page-wrapper">
             <!-- main header -->
             <?php
+<<<<<<< HEAD
             $show = false;
             require_once('../templates/header.php');
+=======
+                $show = false;
+                require_once('../templates/header.php');
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
             ?>
             <!-- main banner -->
             <?php
             require_once('../templates/simple_banner_nuevo.php');
             $banner_data = array(
                 'urlImage' => '../img/banner/Banner Hoteles.jpg',
-                'description' => 'Encontramos el hospedaje perfecto para ti',
+                'description' => '<span style="text-shadow: 2px 2px 5px rgba(100, 100, 100, 0.5);">Encontramos el hospedaje perfecto para ti</span>',
                 'btn_title' => '',
                 'btn_data_x' => '',
                 'btn_data_y' => '',
                 'btn_data_v' => '',
                 'btn_data_h' => '',
                 'btn_bg' => '#03041f',
+<<<<<<< HEAD
                 'data_x' => "['start','start','start','start']",
                 'data_y' => "['center','center','center','center']",
                 'data_v' => "['20','20','10','20']",
+=======
+                'data_x' => "['start','center','center','center']",
+                'data_y' => "['100','center','center','center']",
+                'data_v' => "['20','240','10','20']",
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                 'data_h' => "['0','0','0','0']",
                 'data_w' => "['372','375','345','219']"
             );
@@ -35,8 +46,13 @@
 
             <!--main container -->
             <main id="main">
+<<<<<<< HEAD
                 <div class="hoteles-content">
                     <header class="content-heading-hoteles">
+=======
+                <div class="visa-content">
+                    <header class="content-heading-visa">
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                         <p class="main-subtitle-visa">
                             En <strong>Jireh Travel</strong> te ayudamos a encontrar y reservar el hotel ideal
                             para tu viaje. Con acceso a una amplia variedad de hoteles en todo

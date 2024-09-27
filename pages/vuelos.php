@@ -14,8 +14,13 @@
         <div class="page-wrapper">
             <!-- main header -->
             <?php
+<<<<<<< HEAD
             $show = false;
             require_once('../templates/header.php');
+=======
+                $show = false;
+                require_once('../templates/header.php');
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
             ?>
             <!-- main banner -->
             <?php
@@ -25,6 +30,7 @@
                 'description' => 'Descubre las mejores tarifas para volar a donde quieras llegar',
                 'btn_title' => '',
                 'btn_bg' => '',
+<<<<<<< HEAD
                 'btn_data_x' => "['start','start','start','start']",
                 'btn_data_y' => "['middle','middle','top','top']",
                 'btn_data_v' => "['115','115','290','100']",
@@ -32,6 +38,11 @@
                 'data_x' => "['start','start','start','start']",
                 'data_y' => "['bottom','bottom','bottom','bottom']",
                 'data_v' => "['200','240','260','130']",
+=======
+                'data_x' => "['start','center','center','center']",
+                'data_y' => "['200','center','center','center']",
+                'data_v' => "['150','240','10','20']",
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                 'data_h' => "['50','0','0','0']",
                 'data_w' => "['570','570','570','320']"
             );
@@ -41,12 +52,21 @@
             <!--main container -->
             <main id="main">
                 <div class="visa-content">
+<<<<<<< HEAD
                     <header class="content-heading-vuelos">
                         <p class="main-subtitle-visa" style="margin-block-end: 3rem;">
                             En <strong>Jireh Travel</strong> podrás reservar tu próximo vuelo nacional o
                             internacional a través de tu agente de viaje. Contamos con alianzas con las
                             principales aeroléneas para presentarte las mejores opciones de vuelos Además,
                             nuestro equipo de expertos estará disponible para brindarte asesoramiento
+=======
+                    <header class="content-heading-visa">
+                        <p class="main-subtitle-visa">
+                            En <strong>Jireh Travel</strong> podrás reservar tu próximo vuelo nacional o
+                            internacional a través de tu agente de viaje. Contamos con alianzas con las 
+                            principales aeroléneas para presentarte las mejores opciones de vuelos Además, 
+                            nuestro equipo de expertos estará disponible para brindarte asesoramiento 
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                             personalizado y ayudarte a encontrar las mejores tarifas y rutas.
                         </p>
                         <div class="double-separator"></div>

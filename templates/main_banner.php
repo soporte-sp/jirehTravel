@@ -10,7 +10,10 @@
     <!-- revolution slider starts 1530px -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
     <style>
     /* .tp-kbimg{
         height: 510px !important; 
@@ -28,6 +31,9 @@
     }
     </style>
 
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 <!--el tamaño del banner la modifique en el archivo revolution.extension.kenburn.min.js-->
     <div
@@ -82,11 +88,16 @@
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
                         data-x="['start','start','center','center']"
 <<<<<<< HEAD
+<<<<<<< HEAD
                         data-y="['280','280','450','300']"
                         data-width="['480','350','400','280']"
                         data-height="300"
                         data-fontsize="['55','36','44','28']"
                         data-hoffset="['0','0','0','0']"
+=======
+                        data-hoffset="['0','0','0','0']"
+                        data-y="['110','top','middle','middle']"
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                         data-hoffset="['0','0','0','0']"
                         data-y="['110','top','middle','middle']"
@@ -122,9 +133,12 @@
                         data-y="['400','370','550','370']"
                         data-hoffset="['0','0','0','0']"
 <<<<<<< HEAD
+<<<<<<< HEAD
                         data-width="['420','370','400','280']"
                         data-fontsize="['95','48','44','18']"
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                         data-y="['top','top','middle','middle']"
                         data-voffset="['220','240','10','20']"
                     

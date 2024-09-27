@@ -12571,7 +12571,11 @@ to {
 
 .navbar-position{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: calc(100% - 25rem);
+=======
+	width: calc(100% - 24rem);
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
 	width: calc(100% - 24rem);
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
@@ -12891,6 +12895,7 @@ to {
 	font-size: 1.5rem;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   .title-card-general{
 	display: flex; 
@@ -12900,6 +12905,8 @@ to {
 	font-weight: 700;
 	color: rgb(97,97,97);
   }
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 
@@ -12957,6 +12964,10 @@ to {
 	}
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
 
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
@@ -13099,6 +13110,7 @@ to {
 #header .dropdown-menu{
 	-webkit-transition: all .2s linear;
 	transition: top .2s linear;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -13293,6 +13305,9 @@ to {
 	  line-height: 2rem;
 	}
   }
+=======
+}
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
 }
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1

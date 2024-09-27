@@ -12,6 +12,7 @@
     </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- hamburger navigation -->
     <nav class="navbar navbar-default">
       <div class="navbar-header">
@@ -348,6 +349,8 @@
 
 =======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
     <!-- main navigation -->
     <nav class="nav-position">
       <!-- main menu items and drop for mobile -->
@@ -356,12 +359,15 @@
         <ul class="navbar-position nav navbar-nav">
           <div class="navbar-position-logos navbar-item">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class='navbar-item' style='margin-inline-start: 1rem;'>
               <img width='60' src='../img/icons/IATA.png' alt='IATA' />
               <img width='40' src='../img/icons/Anato.png' alt='Anato' />
               <img width='50' src='../img/icons/RNT.png' alt='RNT' />
             </div>
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
             <?php 
               if($show){
                 echo "<div class='navbar-item' style='margin-inline-start: 1rem;'> ";
@@ -373,6 +379,9 @@
             }
             ?>
 
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
             <div class="navbar-item">
               <p class="navbar-item-title">
@@ -391,7 +400,10 @@
                   <p style="color: white;">Menú</p>
                 </a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                 
                 <!-- <div class="dropdown-menu">
                   <div class="drop-wrap">
@@ -419,6 +431,9 @@
                   </div>
                 </div> -->
 
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
               </li>
             </div>
@@ -428,6 +443,7 @@
       </div>
     </nav>
   </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   <!-- search form -->
@@ -507,6 +523,9 @@
       </div> -->
     </fieldset>
   </form>
+=======
+  <!-- search form -->
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
   <!-- search form -->
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1

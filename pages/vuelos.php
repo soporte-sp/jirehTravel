@@ -15,8 +15,13 @@
             <!-- main header -->
             <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
             $show = false;
             require_once('../templates/header.php');
+=======
+                $show = false;
+                require_once('../templates/header.php');
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                 $show = false;
                 require_once('../templates/header.php');
@@ -66,6 +71,9 @@
                             internacional a través de tu agente de viaje. Contamos con alianzas con las 
                             principales aeroléneas para presentarte las mejores opciones de vuelos Además, 
                             nuestro equipo de expertos estará disponible para brindarte asesoramiento 
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                             personalizado y ayudarte a encontrar las mejores tarifas y rutas.
                         </p>

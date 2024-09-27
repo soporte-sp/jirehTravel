@@ -18,6 +18,7 @@
             $banner_data = array(
                 'urlImage' => '../img/banner/Banner Visa americana.jpg',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'description' => '<p style="text-align: end;">Te asesoramos en tu trámite de visa americana</p>',
                 'btn_title' => 'Primera vez',
                 'btn_bg' => 'red',
@@ -31,6 +32,8 @@
                 'data_h' => "['0','0',-100','48']",
                 'data_w' => "['520','520','520','330']",
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                 'description' => '<p style="text-align: end; padding-inline-start: 10rem;">Te asesoramos en tu trámite de visa americana</p>',
                 'btn_title' => 'Primera vez',
                 'btn_bg' => 'red',
@@ -38,6 +41,9 @@
                 'data_y' => "['200','center','center','center']",
                 'data_v' => "['50','240','10','20']",
                 'data_h' => "['0','0','0','0']",
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
             );
             
@@ -50,6 +56,7 @@
                     <header class="content-heading-visa">
                         <h2>¿Cómo te asesoramos?</h2>
                         <p class="main-subtitle-visa">
+<<<<<<< HEAD
 <<<<<<< HEAD
                             Contamos con un equipo calificado que pondremos a tu disposición para 
                             orientarte en todo el proceso para sacar tu visa para 
@@ -64,6 +71,8 @@
 
                     <div class="" style="margin-block-start: 4rem; width: 82%">
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                             Contamos con un equipo calificado que pondremos a tu
                             disposición para orientarte en todo el proceso para solicitar tu
                             visa para Estados Unidos, desde el inicio de tu solicitud y
@@ -76,6 +85,9 @@
                     </header>
 
                     <div class="" style="margin-block-start: 4rem; width: 90%">
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                         <div class="row">
 
@@ -89,6 +101,7 @@
                                                 alt="image description" /></a>
                                     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     <div class="main-title-americana">
                                         <span>Primera vez</span>
@@ -110,6 +123,8 @@
                                                             <p style="text-align: start; font-size: 1.3rem; padding: .4rem;">*Menores de 14 años si deben presentar foto física.</p>
                                                             <p style="line-height: 1.2; font-weight: 600; margin-block-start: -1rem;">Los soportes para llevar el día de la entrevista varían según el perfil del solicitante, la agencia le indicará cuales presentar.</p>
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                                     <div style="text-align: start; font-size: 2.7rem; margin-block-start: -3rem;">
                                         <span style="font-weight: 500;">Primera vez</span>
                                     </div>
@@ -129,6 +144,9 @@
                                                             <li style="line-height: 1.2; margin: 0;">• Formulario diligenciado en borrador (facilita agencia).</li>
                                                             <p style="text-align: start; font-size: 1.4rem; padding: .4rem;">• *Menores de 14 años si deben presentar foto física.</p>
                                                             <p style="line-height: 1.2; font-weight: 600;">• Los soportes para llevar el día de la entrevista varían según el perfil del solicitante, la agencia le indicará cuales presentar.</p>
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                                                         </ul>
                                                     </div>
@@ -138,9 +156,15 @@
 
                                         <ul class="detail-accordion accordion-v2">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <li style="box-shadow: none; border: none; ">
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">¿Cómo iniciar el proceso?</strong>
+=======
+                                            <li style="box-shadow: none; border: none;">
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">¿Cómo iniciar el proceso?</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                             <li style="box-shadow: none; border: none;">
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
@@ -153,7 +177,11 @@
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">1° Consulta con tu agente el costo de asesoría para tramitar visa americana por primera vez.</li>
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">2° La agencia lo guiará para diligenciar el formulario DS-160.</li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de <span style="color: rgb(60,60,60); font-weight: 400;">185 dólares al cambio del día, por persona</span> + pago retorno del pasaporte por valor de $54.000 recogida en punto FedEx. (Visa aprobada)</li>
+=======
+                                                            <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de 185 dólares al cambio del día, por persona + pago retorno del pasaporte por valor de $54.000 recogida en punto FedEx. (Visa aprobada)</li>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de 185 dólares al cambio del día, por persona + pago retorno del pasaporte por valor de $54.000 recogida en punto FedEx. (Visa aprobada)</li>
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
@@ -168,8 +196,13 @@
                                         <ul class="detail-accordion accordion-v2">
                                             <li style="box-shadow: none; border: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">Alcance del servicio</strong>
+=======
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Alcance del servicio</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
                                                     <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Alcance del servicio</strong>
@@ -183,6 +216,10 @@
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;"><span style="color: rgb(69, 65, 65);">• Preparación para la entrevista consular:</span> le brindaremos orientación en el proceso presencial o virtual, para prepararse adecuadamente para su entrevista en la embajada de Estados Unidos.</li>
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;"><span style="color: rgb(69, 65, 65);">• Seguimiento personalizado:</span> lo acompañaremos durante todo su trámite, proporcionándole actualizaciones periódicas sobre el estado de su solicitud, revisando si es posible adelantar las fechas de cita y respondiendo sus consultas para brindarle tranquilidad.</li>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
 
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
@@ -209,8 +246,13 @@
                                     </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <div class="main-title-americana">
                                         <span>Renovación visa americana</span>
+=======
+                                    <div style="text-align: start; font-size: 2.7rem; margin-block-start: -2rem;">
+                                        <p style="font-weight: 500; line-height: 1;">Renovación visa americana</p>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                     <div style="text-align: start; font-size: 2.7rem; margin-block-start: -2rem;">
                                         <p style="font-weight: 500; line-height: 1;">Renovación visa americana</p>
@@ -221,8 +263,13 @@
                                         <ul class="detail-accordion accordion-v2" style="border-top: 1px solid rgb(226, 226, 226);">
                                             <li style="box-shadow: none; border: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">Requisitos</strong>
+=======
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Requisitos</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
                                                     <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Requisitos</strong>
@@ -235,9 +282,15 @@
                                                             <li style="line-height: 1.2; margin: 0;">• Pasaporte actual.</li>
                                                             <li style="line-height: 1.2; margin: 0;">• Pasaporte anterior (donde aparezca la visa vencida o por vencer).</li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             <li style="line-height: 1.2; margin: 0;">• Dos fotografías impresas y 1 en formato digital de 5x5cm, vigente, a color y con fondo blanco.</li>
                                                             <li style="line-height: 1.2; margin: 0;">• Formulario diligenciado de visa no inmigrante (facilita la agencia)</li>
                                                             <p style="line-height: 1.2; margin-block-start: 1.5rem; color: rgb(60,60,60); font-weight: 400;">*Casos especiales deben ser consultados con el asesor.</p>
+=======
+                                                            <li style="line-height: 1.2; margin: 0;">• Dos fotografías digitales de 5X5 cm, vigentes, a color y con fondo blanco formato digital.</li>
+                                                            <li style="line-height: 1.2; margin: 0;">• Formulario diligenciado de visa no inmigrante (facilita la agencia)</li>
+                                                            <p style="line-height: 1.2; margin-block-start: 1.5rem; color: #3f3e3e;">*Casos especiales deben ser consultados con el asesor.</p>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                             <li style="line-height: 1.2; margin: 0;">• Dos fotografías digitales de 5X5 cm, vigentes, a color y con fondo blanco formato digital.</li>
                                                             <li style="line-height: 1.2; margin: 0;">• Formulario diligenciado de visa no inmigrante (facilita la agencia)</li>
@@ -252,8 +305,13 @@
                                         <ul class="detail-accordion accordion-v2">
                                             <li style="box-shadow: none; border: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">¿Cómo iniciar el proceso?</strong>
+=======
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">¿Cómo iniciar el proceso?</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
                                                     <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">¿Cómo iniciar el proceso?</strong>
@@ -265,7 +323,11 @@
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">1° Consulta con tu agente el costo de asesoría para tramitar la renovación de visa americana.</li>
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">2° La agencia lo guiará para diligenciar el formulario DS-160.</li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de <span style="color: rgb(60,60,60); font-weight: 400;">185 dólares al cambio del día, por persona</span> + pago retorno del pasaporte por valor de $54.000 recogida en punto Fedex.</li>
+=======
+                                                            <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de 185 dólares al cambio del día, por persona + pago retorno del pasaporte por valor de $54.000 recogida en punto Fedex.</li>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">3° Cancelar el costo de los derechos consulares por valor de 185 dólares al cambio del día, por persona + pago retorno del pasaporte por valor de $54.000 recogida en punto Fedex.</li>
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
@@ -280,8 +342,13 @@
                                         <ul class="detail-accordion accordion-v2">
                                             <li style="box-shadow: none; border: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">Alcance del servicio</strong>
+=======
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Alcance del servicio</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
                                                     <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Alcance del servicio</strong>
@@ -316,8 +383,13 @@
                                     </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <div class="main-title-americana">
                                         <span>Servicio de entrega de documentos para renovación</span>
+=======
+                                    <div style="text-align: start; font-size: 2.7rem; margin-block-start: -2rem;">
+                                        <p style="font-weight: 500; line-height: 1;">Entrega de documentos</p>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                     <div style="text-align: start; font-size: 2.7rem; margin-block-start: -2rem;">
                                         <p style="font-weight: 500; line-height: 1;">Entrega de documentos</p>
@@ -328,8 +400,13 @@
                                         <ul class="detail-accordion accordion-v2" style="border-top: 1px solid rgb(226, 226, 226);">
                                             <li style="box-shadow: none; border: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">Requisitos</strong>
+=======
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Requisitos</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
                                                     <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Requisitos</strong>
@@ -353,8 +430,13 @@
                                         <ul class="detail-accordion accordion-v2">
                                             <li style="box-shadow: none; border: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">¿Cómo iniciar el proceso?</strong>
+=======
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">¿Cómo iniciar el proceso?</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
                                                     <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">¿Cómo iniciar el proceso?</strong>
@@ -374,8 +456,13 @@
                                         <ul class="detail-accordion accordion-v2">
                                             <li style="box-shadow: none; border: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <a href="#" class="subtitle-content">
                                                     <strong class="subtitle-americana">Alcance del servicio</strong>
+=======
+                                                <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
+                                                    <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Alcance del servicio</strong>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                 <a href="#" style="padding: 0; margin: 0; background-color: transparent;">
                                                     <strong class="title" style="font-weight: 500; padding-block: .7rem; text-align: start; font-size: 2rem; color: #4d4d4d;">Alcance del servicio</strong>
@@ -385,6 +472,7 @@
                                                     <div class="slide-holder" style="padding: .9rem 0 0 0; margin: 0; text-align: start; font-size: 1.7rem;">
                                                         <ul class="ul-li-marker" style="padding: 0; list-style: none;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">
                                                                 <span style="color: rgb(69, 65, 65);">• Seguimiento al proceso:</span> 
                                                                 lo acompañamos durante todo su trámite, proporcionándole actualizaciones 
@@ -393,6 +481,9 @@
                                                             </li>
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;">
                                                                 <span style="color: rgb(69, 65, 65);">• Entrega de documentos en la embajada:</span> ofrecemos el servicio de radicación de documentos en la embajada de Bogotá* de manera que no tenga que incurrir en gastos de viaje, ahorros en costos logísticos y tiempo.</li>
+=======
+                                                            <li style="line-height: 1.2; margin: .5rem 0 2rem;"><span style="color: rgb(69, 65, 65);">• Entrega de documentos en la embajada:</span> ofrecemos el servicio de radicación de documentos en la embajada de Bogotá* de manera que no tenga que incurrir en gastos de viaje, ahorros en costos logísticos y tiempo.</li>
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                                                             <li style="line-height: 1.2; margin: .5rem 0 2rem;"><span style="color: rgb(69, 65, 65);">• Entrega de documentos en la embajada:</span> ofrecemos el servicio de radicación de documentos en la embajada de Bogotá* de manera que no tenga que incurrir en gastos de viaje, ahorros en costos logísticos y tiempo.</li>
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
@@ -410,8 +501,11 @@
                         <div style="margin-block: 4rem 5rem; text-align: center">
                             <a
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 class="btn-americana"
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                                 style="
                     background-color: #050829;
                     color: white;
@@ -419,6 +513,9 @@
                     text-align: start; font-size: 1.7rem;
                     border-radius: 0.3em;
                   "
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                                 href="https://wa.link/u62mb7">Quiero iniciar mi trámite</a>
                         </div>

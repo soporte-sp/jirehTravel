@@ -18,8 +18,11 @@
             $banner_data = array(
                 'urlImage' => '../img/banner/Banner Spirit Simple.jpg',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'description' => 'Las tarifas más bajas en vuelos desde Colombia a <p>Estados Unidos</p>',
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                 'description' => 'Las tarifas más bajas en vuelos desde Colombia a Estados Unidos',
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                 'btn_title' => '¡Reserva ahora!',
@@ -39,6 +42,9 @@
                 'data_y' => "['top','center','middle','middle']",
                 'data_v' => "['40','40','10','20']",
                 'data_h' => "['0','0','0','110']",
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
             );
             simple_banner($banner_data);

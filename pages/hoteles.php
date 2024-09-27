@@ -10,8 +10,13 @@
             <!-- main header -->
             <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
             $show = false;
             require_once('../templates/header.php');
+=======
+                $show = false;
+                require_once('../templates/header.php');
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
 =======
                 $show = false;
                 require_once('../templates/header.php');
@@ -30,10 +35,13 @@
                 'btn_data_h' => '',
                 'btn_bg' => '#03041f',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'data_x' => "['start','start','start','start']",
                 'data_y' => "['center','center','center','center']",
                 'data_v' => "['20','20','10','20']",
 =======
+=======
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                 'data_x' => "['start','center','center','center']",
                 'data_y' => "['100','center','center','center']",
                 'data_v' => "['20','240','10','20']",
@@ -52,6 +60,9 @@
 =======
                 <div class="visa-content">
                     <header class="content-heading-visa">
+<<<<<<< HEAD
+>>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
+=======
 >>>>>>> c1916bcf3aebda385dd08075e592827ea4338ca1
                         <p class="main-subtitle-visa">
                             En <strong>Jireh Travel</strong> te ayudamos a encontrar y reservar el hotel ideal

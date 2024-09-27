@@ -8,19 +8,27 @@
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- main header -->
-            <?php require_once('../templates/header.php') ?>
+            <?php
+            $show = false;
+            require_once('../templates/header.php');
+            ?>
             <!-- main banner -->
             <?php
             require_once('../templates/simple_banner.php');
             $banner_data = array(
-                'urlImage' => '../img/banner/Banner Spirit.jpg',
-                'description' => 'Las tarifas más bajas en vuelos desde Colombia a Estados Unidos',
+                'urlImage' => '../img/banner/Banner Spirit Simple.jpg',
+                'description' => 'Las tarifas más bajas en vuelos desde Colombia a <p>Estados Unidos</p>',
                 'btn_title' => '¡Reserva ahora!',
+                'btn_data_x' => "['start','start','start','start']",
+                'btn_data_y' => "['middle','middle','top','top']",
+                'btn_data_v' => "['115','115','290','100']",
+                'btn_data_h' => "['0','0','0','0']",
                 'btn_bg' => '#03041f',
-                'data_x' => "['start','center','center','center']",
-                'data_y' => "['top','center','middle','middle']",
-                'data_v' => "['100','240','10','20']",
-                'data_h' => "['0','0','0','0']",
+                'data_x' => "['start','start','start','start']",
+                'data_y' => "['top','top','top','top']",
+                'data_v' => "['100','100','10','-100']",
+                'data_h' => "['0','0','0','110']",
+                'data_w' => "['520','520','520','330']",
             );
             simple_banner($banner_data);
             ?>
@@ -28,11 +36,10 @@
             <!--main container -->
             <main id="main">
                 <section class="content-block bg-white">
-                    <div class="container">
-                        <header class="content-heading" style="margin-top: 3rem">
+                    <div class="container-spirit">
+                        <header class="content-heading-spirit">
                             <span
-                                class="main-subtitle"
-                                style="background-color: yellow; padding: 1rem; text-align: center;">
+                                class="main-subtitle-spirit">
                                 ¡Vuela desde Colombia y ahorra con Spirit! Consulta nuestros
                                 vuelos con tarifas ultrabajas.</span>
                         </header>

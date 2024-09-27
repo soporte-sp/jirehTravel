@@ -7,7 +7,9 @@
         </a>
     </div>
 
-    <!-- revolution slider starts -->
+    <!-- revolution slider starts 1530px -->
+
+<!--el tamaño del banner la modifique en el archivo revolution.extension.kenburn.min.js-->
     <div
         id="rev_slider_279_1_wrapper"
         class="rev_slider_wrapper fullscreen-container"
@@ -21,7 +23,7 @@
             ">
         <div
             id="rev_slider_70_1"
-            class="rev_slider fullscreenabanner"
+            class="rev_slider"
             style="display: none"
             data-version="5.1.4">
             <ul>
@@ -42,7 +44,7 @@
                     <img
                         src="../img/banner/Banner agencias.jpg"
                         alt="image description"
-                        data-bgposition="center center"
+                        data-bgposition="center"
                         data-kenburns="on"
                         data-duration="30000"
                         data-ease="Linear.easeNone"
@@ -56,17 +58,16 @@
                         class="rev-slidebg"
                         data-bgfit="cover"
                         data-no-retina />
-
                     <div
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
-                        data-x="['start','center','center','center']"
+                        data-x="['start','start','center','center']"
+                        data-y="['280','280','450','300']"
+                        data-width="['480','350','400','280']"
+                        data-height="300"
+                        data-fontsize="['55','36','44','28']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['top','top','middle','middle']"
                         data-voffset="['220','240','10','20']"
-                        data-fontsize="['48','48','44','28']"
-                        data-lineheight="['55','85','50','50']"
-                        data-width="['500','1000','750','480']"
-                        data-height="600"
+                        data-lineheight="['55','45','50','30']"
                         data-whitespace="normal"
                         data-transform_idle="o:1;"
                         data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
@@ -80,25 +81,26 @@
                         style="
                       z-index: 7;
                       letter-spacing: 0;
-                      font-weight: 900;
                       text-align: start;
+                      font-family: 'Poppins', sans-serif;
+                      font-weight: 800;
                       color: white;
                       padding-inline-start: 6.5rem;
                     ">
                         ¡NO CAIGAS
-                        <p style="color: #050829; font-weight: 900">EN TRAMPAS!</p>
+                        <p style="color: #050829;">EN TRAMPAS!</p>
                     </div>
 
                     <div
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
-                        data-x="['start','center','center','center']"
+                        data-x="['start','start','center','center']"
+                        data-y="['400','370','550','370']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['center','top','middle','middle']"
-                        data-voffset="['220','240','10','20']"
-                        data-fontsize="['58','48','44','28']"
-                        data-lineheight="['85','85','50','150']"
-                        data-width="['320','1000','750','480']"
+                        data-width="['420','370','400','280']"
+                        data-fontsize="['95','48','44','18']"
                         data-height="420"
+                        data-voffset="['220','240','10','20']"
+                        data-lineheight="['85','85','50','150']"
                         data-whitespace="normal"
                         data-transform_idle="o:1;"
                         data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
@@ -117,6 +119,7 @@
                       color: #e5e2e2;
                     ">
                         <p
+                        
                             style="
                         color: white;
                         font-size: 3rem;
@@ -164,8 +167,8 @@
                         data-y="['top','top','middle','middle']"
                         data-voffset="['220','240','10','20']"
                         data-fontsize="['68','48','44','28']"
-                        data-lineheight="['60','85','50','50']"
-                        data-width="['620','1000','750','480']"
+                        data-lineheight="['60','55','50','40']"
+                        data-width="['700','500','450','450']"
                         data-height="none"
                         data-whitespace="normal"
                         data-transform_idle="o:1;"
@@ -180,7 +183,8 @@
                         style="
                       z-index: 7;
                       letter-spacing: 0;
-                      font-weight: 400;
+                      font-family: 'Poppins', sans-serif;
+                      font-weight: 300;
                       text-align: center;
                       color: white;
                     ">
@@ -193,7 +197,7 @@
                         data-x="['center','center','center','center']"
                         data-hoffset="['0','0','0','0']"
                         data-y="['center','middle','middle','middle']"
-                        data-voffset="['110','160','180','150']"
+                        data-voffset="['110','100','180','150']"
                         data-width="none"
                         data-height="200"
                         data-whitespace="nowrap"
@@ -207,7 +211,7 @@
                         data-splitout="none"
                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
                         data-responsive_offset="on">
-                        <a class="btn btn-banner" href="#">¡Inicia tu trámite ahora!</a>
+                        <a style="font-family: 'Poppins', sans-serif;" class="btn btn-banner" href="#">¡Inicia tu trámite ahora!</a>
                     </div>
                 </li>
 
@@ -242,13 +246,13 @@
 
                     <div
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-1"
-                        data-x="['start','center','center','center']"
+                        data-x="['start','start','center','center']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['top','top','middle','middle']"
-                        data-voffset="['120','240','10','20']"
-                        data-fontsize="['58','48','44','28']"
-                        data-lineheight="['55','85','50','50']"
-                        data-width="['620','1000','750','480']"
+                        data-y="['170','80','140','0']"
+                        data-voffset="['120','0','10','0']"
+                        data-fontsize="['58','40','44','28']"
+                        data-lineheight="['55','45','50','30']"
+                        data-width="['820','600','750','480']"
                         data-height="none"
                         data-whitespace="normal"
                         data-transform_idle="o:1;"
@@ -263,21 +267,22 @@
                         style="
                       z-index: 7;
                       letter-spacing: 0;
+                      font-family: 'Poppins', sans-serif;
                       font-weight: 400;
                       text-align: start;
                       color: white;
-                      margin: 3rem 0 0 7rem;
+                      margin-inline-start: 7rem;
                     ">
-                        El carro de tus sueños nunca estuvo tan cerca
+                     El auto de tus sueños nunca estuvo tan cerca
                     </div>
 
                     <div
                         class="tp-caption rev-btn rs-parallaxlevel-10"
                         id="slide-163-layer-2"
-                        data-x="['start','center','center','center']"
+                        data-x="['start','start','center','center']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-voffset="['110','160','180','150']"
+                        data-y="['middle','top','230','60']"
+                        data-voffset="['110','160','180','0']"
                         data-width="none"
                         data-height="350"
                         data-whitespace="nowrap"
@@ -297,8 +302,9 @@
                             style="
                         background-color: white;
                         color: black;
+                        font-family: 'Poppins', sans-serif;
                         margin-inline-start: 3rem;
-                      ">¡Renta tu carro aquí!</a>
+                      ">¡Renta tu auto aquí!</a>
                     </div>
                 </li>
 
@@ -323,7 +329,7 @@
                         data-duration="30000"
                         data-ease="Linear.easeNone"
                         data-scalestart="100"
-                        data-scaleend="120"
+                        data-scaleend="110"
                         data-rotatestart="0"
                         data-rotateend="0"
                         data-offsetstart="0 0"
@@ -335,13 +341,13 @@
 
                     <div
                         class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
-                        data-x="['start','center','center','center']"
+                        data-x="['start','start','center','center']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['top','center','middle','middle']"
-                        data-voffset="['100','240','10','20']"
-                        data-fontsize="['48','48','44','28']"
-                        data-lineheight="['50','85','50','50']"
-                        data-width="['520','1000','750','480']"
+                        data-y="['180','180','center','center']"
+                        data-voffset="['100','240','150','150']"
+                        data-fontsize="['55','40','44','28']"
+                        data-lineheight="['60','50','50','30']"
+                        data-width="['510','370','750','480']"
                         data-height="none"
                         data-whitespace="normal"
                         data-transform_idle="o:1;"
@@ -354,24 +360,22 @@
                         data-splitout="none"
                         data-responsive_offset="on"
                         style="
-                      margin-block-start: 7.5rem;
                       margin-inline-start: 6.5rem;
+                      font-family: 'Poppins', sans-serif;
                       z-index: 7;
-                      letter-spacing: 0;
                       font-weight: 400;
                       text-align: start;
-                      color: #e5e2e2;
+                      color: white;
                     ">
-                        Las tarifas más bajas en vuelos desde Colombia a Estados
-                        Unidos
+                        Las tarifas más bajas en vuelos desde Colombia a Estados Unidos
                     </div>
 
                     <div
-                        class="tp-caption rev-btn rs-parallaxlevel-10"
+                        class="tp-caption rev-btn rs-parallaxlevel-10 btn-spirit-device"
                         id="slide-163-layer-2"
                         data-x="['start','start','center','center']"
                         data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']"
+                        data-y="['400','middle','middle','middle']"
                         data-voffset="['100','160','180','150']"
                         data-width="none"
                         data-height="none"
@@ -390,8 +394,9 @@
                             class="btn btn-banner"
                             href="#"
                             style="
-                        background-color: #03041f;
-                        margin-inline-start: 2.8rem;
+                            font-family: 'Poppins', sans-serif;
+                            background-color: #03041f;
+                            margin-inline-start: 2.8rem;
                       ">¡Reserva ahora!</a>
                     </div>
                 </li>

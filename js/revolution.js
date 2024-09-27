@@ -50,7 +50,7 @@
         },
         responsiveLevels: [1170, 1024, 778, 480],
         gridwidth: [1170, 1024, 778, 480],
-        gridheight: [658, 676, 960, 720],
+        gridheight: [658, 676, 960, 520],
         lazyType: "none",
         parallax: {
           origo: "slidercenter",

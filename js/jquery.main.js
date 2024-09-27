@@ -610,13 +610,13 @@
         });
     $("#common-multiple-slide") // Common Carousel Multiple
         .owlCarousel({
-            items: 3,
+            items: 4,
             slideSpeed: 300,
             itemsTablet: [768, 2],
             itemsMobile: [480, 1],
             autoPlay: 3000,
             touchDrag: false,
-            pagination: true,
+            pagination: false,
             mouseDrag: false
         });
 

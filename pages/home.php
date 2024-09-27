@@ -686,6 +686,8 @@
               </div>
             </div>
           </div>
+
+          
         </main>
 
       </div>
@@ -693,6 +695,8 @@
       <!-- main footer -->
       <?php require_once('../templates/footer.php') ?>
     </div>
-    <?php require_once('../templates/scripts.php') ?>
+    <?php 
+    $status='';
+    require_once('../templates/scripts.php') ?>
   </body>
 </html>
